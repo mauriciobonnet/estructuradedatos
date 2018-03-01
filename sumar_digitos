@@ -1,0 +1,22 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+
+void main ()
+{int N,c,r,s=0;
+	do
+	{cout <<"Ingrese un numero mayor a tres digitos: "<< endl;
+	 cin >>N;
+	}while(N<100);
+ while(N>0)
+  {r=N%10;
+   s=s+r;
+   c=N/10;
+   N=c;
+  }
+cout<<"La suma es: "<< s;
+_getch();
+}
