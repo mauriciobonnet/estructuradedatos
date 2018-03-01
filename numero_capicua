@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 void main()
-{int N,Z=1,c,r,i;
+{int N,Z=0,c,r,i;
  cout <<"Ingrese un numero: "<< endl;
  cin >>N;
  i=N;
