@@ -3,22 +3,22 @@
 #include <iostream>
 using namespace std;
 void main()
-{int n,r,ni,nu,s;
-ni=0;
-nu=0;
-cout<< "ingrese el numero"<<endl;
-cin>>n;
-while(n>0)
-{r=n%10;
-n=n/10;
-s=9-r;
-ni=ni*10+s;
-}
-while(ni>0)
-{r=ni%10;
-ni=ni/10;
-nu=nu*10+r;
-}
+ {int n,r,ni,nu,s;
+ ni=0;
+ nu=0;
+ cout<< "ingrese el numero"<<endl;
+ cin>>n;
+ while(n>0)
+  {r=n%10;
+   n=n/10;
+   s=9-r;
+   ni=ni*10+s;
+  }
+ while(ni>0)
+  {r=ni%10;
+   ni=ni/10;
+   nu=nu*10+r;
+  }
 cout<< "el numero es"<<nu<<endl;
 
 getch();
