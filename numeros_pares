@@ -1,0 +1,20 @@
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std;
+void main()
+{int N,par=0,r,c;
+ cout <<"Ingrese un numero: " << endl;
+ cin >>N;
+ while(N>0)
+  { r=N%10;
+   if(r%2==0)
+     {par = par + 1;
+     }
+    c=N/10;
+    N=c;
+  }
+cout <<"Tiene "<< par << " numeros pares"<<endl;
+_getch();
+}
