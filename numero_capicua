@@ -11,6 +11,7 @@ void main()
   {r=i%10;
    Z=Z*10+r;
    i=i/10;
+   cout<<Z<< endl;
   }
  if(Z==N)
 	 cout<<"Es capicua"<< endl;
