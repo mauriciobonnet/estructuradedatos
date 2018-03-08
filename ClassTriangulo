@@ -28,7 +28,7 @@ void main ()
  cin>>a;
  cout<<"Ingrese su altura: "<<endl;
  cin>>b;
- cout<<"La suma es: "<<triangulo1.calcular_area(a,b);
+ cout<<"El area es: "<<triangulo1.calcular_area(a,b);
  getch();
 	
 }
